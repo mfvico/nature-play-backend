@@ -5,8 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Location.delete_all
-Location.create!(
+Park.delete_all
+Park.create!(
   name: "Wonderland Lake Park",
   address: "Poplar Ave",
   city: "Boulder",
@@ -19,7 +19,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1380300529_wonderland.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Shanahan Ridge Park",
   address: "3299 Redstone Lane",
   city: "Boulder",
@@ -32,7 +32,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1392998315_DSC_0087.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Coot Lake",
   address: "6247 63rd St",
   city: "Boulder",
@@ -45,7 +45,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1374788668_IMG_0283.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Ebin G. Fine Park",
   address: "101 Arapahoe Ave",
   city: "Boulder",
@@ -58,7 +58,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1378917312_eben-g-fine.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Emma Gomes Martinez Park",
   address: "2035 Canyon Blvd",
   city: "Boulder",
@@ -71,7 +71,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1382021254__MG_5623.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Columbine Park",
   address: "2035 Glenwood Dr",
   city: "Boulder",
@@ -84,7 +84,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1374788711_IMG_0374.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Aurora 7 Park",
   address: "3085 E. Aurora Ave",
   city: "Boulder",
@@ -97,7 +97,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1374789209_DSC_0868.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Foothills Community Park",
   address: "800 Cherry Ave",
   city: "Boulder",
@@ -110,7 +110,7 @@ Location.create!(
   image: "https://www-static.bouldercolorado.gov/docs/banners/1386710729_DSC_0365.jpg"
 )
 
-Location.create!(
+Park.create!(
   name: "Boulder Reservoir",
   address: "5565 N 51st St",
   city: "Boulder",
