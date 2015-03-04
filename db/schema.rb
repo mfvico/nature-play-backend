@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20150227182247) do
     t.float   "longitude"
     t.text    "description"
     t.string  "type"
-    t.integer "user_id"
+    t.integer "park_id"
   end
 
   create_table "parks", force: :cascade do |t|
