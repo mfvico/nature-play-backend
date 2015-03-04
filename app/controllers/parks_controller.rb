@@ -5,4 +5,6 @@ class ParksController < ApplicationController
     render json: @parks
   end
 
+  
+
 end
