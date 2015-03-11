@@ -24,6 +24,12 @@ class ElementsController < ApplicationController
     redirect_to elements_path
   end
 
+  def destroy
+    @element = Element.find(params[:id])
+    @element.delete
+    redirect_to elements_path
+  end
+
   private
 
   def element_params

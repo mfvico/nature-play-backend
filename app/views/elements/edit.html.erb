@@ -1,1 +1,3 @@
 <%= render 'form' %>
+
+<%= link_to "Delete", element_path(@element), method: :delete, data: {confirm: "Are you sure?"} %>
