@@ -6,6 +6,7 @@
     <th>Description</th>
     <th>Category</th>
     <th>Park ID</th>
+    <th></th>
   </thead>
   <tbody>
     <% @elements.each do |element| %>
@@ -19,6 +20,7 @@
       <% else %>
         <td>Not in a Park</td>
       <% end %>
+      <td> <%= link_to "Edit", edit_element_path(element)%> </td>
     </tr>
     <% end %>
   </tbody>
