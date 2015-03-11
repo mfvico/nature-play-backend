@@ -1,0 +1,27 @@
+<%= link_to "New Element", new_element_path %>
+<table>
+  <thead>
+    <th>Latitude</th>
+    <th>Longitude</th>
+    <th>Description</th>
+    <th>Category</th>
+    <th>Park ID</th>
+  </thead>
+  <tbody>
+    <% @elements.each do |element| %>
+    <tr>
+      <td><%= element.latitude %></td>
+      <td><%= element.longitude %></td>
+      <td><%= element.description %></td>
+      <td><%= element.category %></td>
+      <% if element.park_id? %>
+        <td><%= element.park_id %></td>
+      <% else %>
+        <td>Not in a Park</td>
+      <% end %>
+    </tr>
+    <% end %>
+  </tbody>
+
+
+</table>
